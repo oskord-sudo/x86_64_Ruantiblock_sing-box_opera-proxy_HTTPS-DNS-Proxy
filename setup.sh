@@ -10,7 +10,7 @@ echo "Install opera-proxy client"
 service stop vpn > /dev/null
 rm -f /usr/bin/vpns /etc/init.d/vpn
 
-url="https://github.com/NitroOxid/openwrt-opera-proxy-bin/releases/download/1.13.1/opera-proxy_1.13.1-r1_aarch64_cortex-a53.ipk"
+url="https://github.com/sdghs0/opera-proxy/releases/download/1.13.1-r1-24.10.4/opera-proxy_1.13.1-r1_x86_64.ipk"
 destination_file="/tmp/opera-proxy.ipk"
 
 echo "Downlading opera-proxy..."
